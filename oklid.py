@@ -14,7 +14,6 @@ for i in range(len(points)):
         distance = oklidDistance(points[i], points[j])
         distances.append(distance)
 
-# Minimum mesafenin bulunması
 if distances:
     min_distance = min(distances)
     print("Minimum mesafe:", min_distance)
